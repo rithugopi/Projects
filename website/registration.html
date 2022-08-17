@@ -1,0 +1,59 @@
+<html>
+<head>
+  <h1><b><center>JOB APPLICATION </center></b></h1>
+  <style>
+body {
+  background-image: url('reg.jpg');
+  background-repeat: no-repeat;
+   
+  background-size: cover;
+}
+
+  h3:after {
+    content:" *";
+    color: red;
+  }
+
+</style>
+</head>
+ 
+   
+</head>
+<body ><center>
+ <p>Please complete the form below to apply for a position with us</p> <hr>  
+      <form >
+       
+        
+         <h3>Full Name :</h3><input type="text" name="name" placeholder="Enter your first name" required> 
+                             <input type="text" name="name" placeholder="Enter your last name"> <br><br>
+       
+       <h3>Email Address :</h3><input type="email" name="email" placeholder="Eg:myname@example.com" size="50" required><br><br>
+       <h3>Gender:</h3>
+       <input type="Radio" name="gender"> Male 
+       <input type="Radio" name="gender"> Female 
+       <input type="Radio" name="gender"> Other <br><br>  
+       <h3>Date of Birth :   </h3>
+       <input type="date" name="dob" required><br>
+       <h3>Phone number :</h3>
+       <input type="tel" maxlength="10" size="50" required><br><br>
+       <h3> Current address:</h3>
+       <input type="text" placeholder="Address line 1" size="50" required><br><br>
+       <input type="text" placeholder="Address line 2" size="50" required><br><br>
+       <input type="text" placeholder="City" required>
+       <input type="text" placeholder="State" required><br><br>
+       <input type="pin" placeholder="Pin code" size="50" required><br><br><br>
+       <h3> Applying For Position</h3>
+       <select id="position" placeholder="None" >
+    <option value="work1">Work 1</option>
+    <option value="work2">Work 2</option>
+    <option value="work3">Work 3</option>
+    <option value="any">Any position</option>
+  </select><br><br><br>
+ 
+       <h3>  Upload Resume:</h3>
+    <label for="myfile"><b>Select a file:</b></label><input type="file" name="myfile" required><br><br>
+ <input type="submit">
+ 
+        </form> 
+       </center> </body>
+        </html>
